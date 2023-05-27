@@ -1,9 +1,9 @@
-# P11_WebFundamentals Assignment submission process
+# P12_WebFundamentals Assignment submission process
 
 ## Assignment submission process:
-1. Create a branch under your repo p11-[mentor]-[learnerName] for the current week, for example branch with name "week-2" or "week-3"...
+1. Create a branch under your repo p12-[mentor]-[learnerName] for the current week, for example branch with name "week-2" or "week-3"...
 2. Go to GitHub Repo Link To be shared by the PGM: https://github.com/Sankalp-Pesto/P11_WebFundamentals.git and Clone the repository
-3. Copy the respective session folder into your repo p11-[mentor]-[learnerName], under session folder under the ongoing week branch
+3. Copy the respective session folder into your repo p12-[mentor]-[learnerName], under session folder under the ongoing week branch
 4. Work on the assignment
 5. Commit changes with meaningful commit message and raise pull-request week-wise
 6. Share the PR link with your mentor
