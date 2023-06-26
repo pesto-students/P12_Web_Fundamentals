@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Social Network Registration</title>
+  <style>
+    .form-group {
+      margin-bottom: 10px;
+    }
+
+    label {
+        display: inline-block;
+        width: 100px;
+      }
+  </style>
+</head>
+<body>
+  <h1>Social Network Registration</h1>
+  
+  <form method="POST" action="/submit" enctype="multipart/form-data">
+    <div class="form-group">
+      <label for="fullName">Full Name:</label>
+      <input type="text" name="fullName" id="fullName" required>
+    </div>
+    
+    <div class="form-group">
+      <label for="email">Email Address:</label>
+      <input type="email" name="email" id="email" required>
+    </div>
+    
+    <div class="form-group">
+      <label for="about">About you:</label>
+      <textarea name="about" id="about" rows="3" cols="50"></textarea>
+    </div>
+    
+    <div class="form-group">
+      <label for="picture">Photo:</label>
+      <input type="file" name="picture" id="picture">
+    </div>
+    
+    <div>
+      <input type="submit" >
+    </div>
+  </form>
+</body>
+</html>

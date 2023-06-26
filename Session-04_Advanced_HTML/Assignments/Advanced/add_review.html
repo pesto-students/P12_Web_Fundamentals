@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Restaurant Review Website</title>
+        <style>
+            .form-group {
+            margin-bottom: 10px;
+            }
+
+            label {
+                display: inline-block;
+                width: 100px;
+            }
+            nav > a{
+                margin-right: 20px;
+            }
+        </style>
+        <h1>Restaurant Reviews</h1>
+        <nav>
+            <a href="file:///D:/pesto/assignment/P12_Web_Fundamentals/Session-04_Advanced_HTML/Assignments/Advanced/home_page.html">Home</a>
+            <a href="file:///D:/pesto/assignment/P12_Web_Fundamentals/Session-04_Advanced_HTML/Assignments/Advanced/add_review.html">Add Review</a>
+            <a href="file:///D:/pesto/assignment/P12_Web_Fundamentals/Session-04_Advanced_HTML/Assignments/Advanced/about.html">About</a>
+        </nav>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    </head>
+    <body> 
+        <h2>Add Review</h2>
+        <form>
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="rating">Restaurant</label>
+                <select id="restaurant" name="restaurant" required>
+                <option value="">Choose one</option>
+                <option value="5">Main Street Cafe</option>
+                <option value="4">Greek House</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="date">Date of Visit:</label>
+                <input type="date" id="date" name="date">
+            </div>
+
+            <div class="form-group">
+                <label for=""rating>Rating</label>
+                <input type="number" max="5" min="1" value="5">
+            </div>
+
+            <div class="form-group">
+                <label for="review">Review:</label>
+                <textarea id="review" name="review" rows="5" required></textarea>
+            </div>
+            <br>
+            <input type="submit" value="Submit Review">
+        </form>
+        <footer>
+            <p>&copy; 2023 Restaurant Reviews</p>
+        </footer>
+    </body>
+</html>
