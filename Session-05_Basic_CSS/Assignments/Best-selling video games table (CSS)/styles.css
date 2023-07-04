@@ -3,5 +3,26 @@
    --row-bg-color: honeydew;
    font-family: Calibri, Myriad;
 }
+
+#game-table{
+   border: 2px solid forestgreen;
+}
+caption{
+   background-color: forestgreen;
+   color: honeydew;
+   text-transform: uppercase;
+   padding: 5px;
+}
+
+tr:nth-child(even) {
+   background-color: rgb(204, 226, 204);
+ }
+ th{
+   padding: 5px;
+ }
+ td{
+   padding: 5px;
+   text-align: center;
+ }
    
 /* Your solution goes here */

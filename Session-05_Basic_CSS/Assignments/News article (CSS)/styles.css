@@ -1,1 +1,29 @@
 /* Add your styles here */
+h1{
+    background-color: red;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    padding: 5px;
+}
+img{
+    width: 300px;
+    height: auto;
+}
+#author-name-and-date{
+    font-family: Arial, Helvetica, sans-serif;
+    color: lightgrey;
+    font-size: 12px;
+
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    color: grey;
+}
+ol{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    color: grey;
+
+}
