@@ -7,12 +7,39 @@
          body {
             font-family: Calibri, Myriad;
          }
-   
-         div {
-            margin-bottom: 5px;
+         p > .required::before {
+            content: "*";
+            color: red;
          }
-   
-         /* Your solution goes here */
+         div > .required::after {
+            content: "*";
+            color: red;
+         }
+         div > label {
+            display: inline-block;
+            width : 140px;
+            height: 40px;
+            font-weight: bold;
+         }
+         div > input{
+            display: inline-block;
+            width: 300px;
+            padding: 10px;
+         }
+         .required + input{
+            background-color: rgb(219,  241, 248);
+         }
+         textarea{
+            width: 300px;
+            padding: 10px;
+         }
+         input[type="submit"]{
+            width : auto;
+            padding: 10px;
+         }
+
+
+
    
    
       </style>

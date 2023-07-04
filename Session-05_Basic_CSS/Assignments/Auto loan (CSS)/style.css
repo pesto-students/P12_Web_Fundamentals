@@ -1,1 +1,70 @@
-/* Your code goes here */
+body {
+    font-family: "Roboto", "Helvetica", "sans-serif";
+    background-color: #ffffff;
+  }
+h1{
+    font-size : 16px;
+    text-align : center;
+    color: #444444;
+} 
+
+.table-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 5px;
+    font-size: 13px;
+  }
+  
+  .table-container table {
+    flex: 1;
+    margin-right: 20px;
+  }
+
+  .offer {
+    display: inline-block;
+    width: 400px;
+    text-align: center;
+    margin: 4px;
+    border: 1px #cccccc;
+  }
+  .offerTitle{
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #00b3b3;
+    padding: 15px;
+
+  }
+  .offerContents{
+    padding: 20px;
+    background-color: #fafafa;
+  }
+  table{
+    background-color: #ffffff;
+    border: none;
+    border-spacing: none;
+
+  }
+  th{
+    text-align: left;
+    font-size: 12px;
+    font-weight: bold;
+    color: #777777;
+    padding : 10px;
+    border-bottom: 1px #f1f1f1;
+  }
+  td{
+    text-align: left;
+    font-weight: lighter;
+    color: #444444;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top : 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px #f1f1f1;
+  }
+
+  .finalValue{
+    font-weight: bold;
+    color: #2222ff;
+  }
